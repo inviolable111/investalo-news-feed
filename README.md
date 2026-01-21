@@ -1,17 +1,17 @@
 # Investalo News Feed 📰
 
-Ein hochperformanter News-Aggregator für WordPress, der spezialisiert ist auf die Anforderungen von Tradern und Finanzbegeisterten.
+A high-performance news aggregator for WordPress, specialized for the requirements of traders and finance enthusiasts.
 
-## ⚙️ Technische Features
-- **Cron-Job Integration:** Das Plugin nutzt den WordPress Cron (`hourly`), um Feeds im Hintergrund zu aktualisieren. Keine Verzögerung beim Seitenaufruf.
-- **Transients API:** Daten werden stündlich im Cache gespeichert, was API-Requests minimiert und die Performance maximiert.
-- **Smart Sorting:** Kombiniert mehrere RSS-Quellen (z.B. Reuters, FAZ) und sortiert diese automatisch nach Aktualität.
-- **Clean UI:** Minimalistisches Fintech-Design mit dezenten CSS-Gradients und voller Responsivität.
+## ⚙️ Technical Features
+- **Cron-Job Integration:** The plugin uses WordPress Cron (`hourly`) to update feeds in the background. No delay during page loads.
+- **Transients API:** Data is cached hourly, minimizing API requests and maximizing performance.
+- **Smart Sorting:** Combines multiple RSS sources (e.g., Reuters, FAZ) and automatically sorts them by recency.
+- **Clean UI:** Minimalist fintech design with subtle CSS gradients and full responsiveness.
 
 ## 🛠 Installation
-1. Repository klonen oder `.php` Datei herunterladen.
-2. In den `/wp-content/plugins/` Ordner kopieren.
-3. Plugin aktivieren und den Shortcode `[investalo_news]` einbinden.
+1. Clone the repository or download the `.php` file.
+2. Copy it into the `/wp-content/plugins/` folder.
+3. Activate the plugin and use the shortcode `[investalo_news]`.
 
 ---
-*Entwickelt als Teil der Investalo Akademie Suite für professionelles Trading-Equipment.*
+*Developed as part of the Investalo Academy Suite for professional trading equipment.*
